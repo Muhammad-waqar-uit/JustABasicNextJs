@@ -3,7 +3,7 @@ import React from 'react'
 
 const AddToCard = () => {
   return (
-    <div><button onClick={()=>console.log("Click")}>Just A button</button></div>
+    <div><button className="btn btn-primary" onClick={()=>console.log("Click")}>Just A button</button></div>
   )
 }
 
